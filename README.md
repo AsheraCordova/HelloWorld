@@ -1,6 +1,6 @@
 # HelloWorld
 
-Hello wold Demo app.
+Hello world Demo app.
 
 Live preview at https://asheracordova.github.io/hello/index.html.
 
