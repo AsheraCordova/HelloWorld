@@ -26,6 +26,6 @@
 	<preference name="AndroidXEnabled" value="true" />
 	<preference name="SplashMaintainAspectRatio" value="true" />
 	<preference name="webScaleFactor" value="1.4" />
-	<preference name="webHistoryUrlPrefix" value="/hello" />
+	<!-- preference name="webHistoryUrlPrefix" value="/hello" /> -->
 	hello
 </widget>
