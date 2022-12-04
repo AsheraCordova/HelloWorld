@@ -6,7 +6,7 @@ Live preview at https://asheracordova.github.io/hello/index.html.
 
 # Instructions
 * Clone the repository
-* npm run start-dev
+* cordova prepare
 * npm run start-dev
 
 To run the app:
