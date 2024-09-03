@@ -16,7 +16,7 @@
     "update-ios-plist": "cd platforms/android/app/src/main/gentool && npm run plist",
     "backup-android": "cd platforms/android/app/src/main/gentool && npm run backup",
     "restore-android": "cd platforms/android/app/src/main/gentool && npm run restore",
-    "start-dev": "cd platforms/android/app/src/main/gentool && npm install && npm run fixIosSymLinks && npm run restore && npm run resize && cd ../tsc && npm install && cd ../gentool && npm run start skip_watch && cd ../tsc && npm run build",
+    "start-dev": "cd platforms/android/app/src/main/gentool && npm install --legacy-peer-deps && npm run fixIosSymLinks && npm run restore && npm run resize && cd ../tsc && npm install --legacy-peer-deps && cd ../gentool && npm run start skip_watch && cd ../tsc && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -27,8 +27,8 @@
   "devDependencies": {
     "browser": "git+https://github.com/AsheraCordova/cordova-web.git",
     "com.ashera.core": "git+https://github.com/AsheraCordova/Core.git",
-    "cordova-android": "^10.1.2",
-    "cordova-ios": "^6.2.0",
+    "cordova-android": "^13.0.0",
+    "cordova-ios": "^7.1.1",
     "swt": "git+https://github.com/AsheraCordova/cordova-swt.git",
     "cordova-plugin-dialogs": "^2.0.2",
     "cordova-plugin-dialogs-ashera": "git+https://github.com/AsheraCordova/BrowserDialogs.git"
