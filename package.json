@@ -29,11 +29,15 @@
     "com.ashera.core": "git+https://github.com/AsheraCordova/Core.git",
     "cordova-android": "^10.1.2",
     "cordova-ios": "^6.2.0",
-    "swt": "git+https://github.com/AsheraCordova/cordova-swt.git"
+    "swt": "git+https://github.com/AsheraCordova/cordova-swt.git",
+    "cordova-plugin-dialogs": "^2.0.2",
+    "cordova-plugin-dialogs-ashera": "git+https://github.com/AsheraCordova/BrowserDialogs.git"
   },
   "cordova": {
     "plugins": {
-      "com.ashera.core": {}
+      "com.ashera.core": {},
+      "cordova-plugin-dialogs": {},
+      "cordova-plugin-dialogs-ashera": {}
     },
     "platforms": [
       "android",

@@ -1,4 +1,5 @@
 import {Fragment} from './app/Fragment';
+import { DialogHelper } from './helpers/DialogHelper';
 
 export default class Index extends Fragment{
     constructor() {
@@ -6,6 +7,6 @@ export default class Index extends Fragment{
     }
     
     public onCreate(obj:any) {
-    	alert("If you receive this  alert, you are good to write your first program");
+    	DialogHelper.alert("If you receive this  alert, you are good to write your first program", () => {});
     }
 }
