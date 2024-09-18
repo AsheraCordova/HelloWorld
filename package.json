@@ -31,13 +31,15 @@
     "cordova-ios": "^7.1.1",
     "swt": "git+https://github.com/AsheraCordova/cordova-swt.git",
     "cordova-plugin-dialogs": "^2.0.2",
-    "cordova-plugin-dialogs-ashera": "git+https://github.com/AsheraCordova/BrowserDialogs.git"
+    "cordova-plugin-dialogs-ashera": "git+https://github.com/AsheraCordova/BrowserDialogs.git",
+	"com.ashera.coordinatorlayout": "git+https://github.com/AsheraCordova/CoordinatorLayout.git"
   },
   "cordova": {
     "plugins": {
       "com.ashera.core": {},
       "cordova-plugin-dialogs": {},
-      "cordova-plugin-dialogs-ashera": {}
+      "cordova-plugin-dialogs-ashera": {},
+	  "com.ashera.coordinatorlayout": {}
     },
     "platforms": [
       "android",
