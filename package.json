@@ -25,13 +25,15 @@
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
   "devDependencies": {
+    "@types/minimatch": "^6.0.0",
+	"minimatch": "^10.0.3",
     "browser": "git+https://github.com/AsheraCordova/cordova-web.git",
     "com.ashera.core": "git+https://github.com/AsheraCordova/Core.git",
     "cordova-android": "^13.0.0",
     "cordova-ios": "^7.1.1",
-    "swt": "git+https://github.com/AsheraCordova/cordova-swt.git",
     "cordova-plugin-dialogs": "^2.0.2",
-    "cordova-plugin-dialogs-ashera": "git+https://github.com/AsheraCordova/BrowserDialogs.git"
+    "cordova-plugin-dialogs-ashera": "git+https://github.com/AsheraCordova/BrowserDialogs.git",
+    "swt": "git+https://github.com/AsheraCordova/cordova-swt.git"
   },
   "cordova": {
     "plugins": {
